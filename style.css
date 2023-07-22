@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@200;300&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    background: #ffffff;
+  }
+  
+
+  .robot{
+    margin-top:430px;
+    float: right;
+    margin-right: 420px;
+  }
+  h1{
+    text-align: center;
+    padding: 20px;
+    color:#00a2ff;
+    text-shadow: 1px 1px 1px blue;
+  }
+  .navbar{
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px 1px black;
+  }
+  .left{
+    height:70px;
+    float: left;
+    position: relative;
+    margin: 10px 5px 15px 25px;
+  }
+  .right{
+    padding-bottom: 25px;
+    width:100px;
+    height:120px;
+    text-align: center;
+    float: right;
+    position: relative;
+    margin: 0px 25px 10px 0px;
+  }
+  .UniChat{
+    width:500px;
+    height:500px;
+    margin: 100px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    float:left;
+    background-color: cornflowerblue;
+    color:white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px black;
+    
+    
+  }
+  h2{
+    text-align: center;
+    padding: 20px;
+    text-shadow: 1px 1px 1px black;
+  }
+  h5{
+    text-align: center;
+    color:#000a2f;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .teamname{
+    text-align:right;
+    margin-top: 50px;
+    padding: 10px;
+    color:#000a2f;
+    text-shadow:0px 0px 1px #000a2f;
+  
+  }
+  span {
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+  .container {
+    border-radius: 20px;
+    
+    --light-color: #ffffff;
+    height: 550px;
+    width: 350px;
+    background: var(--light-color);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 5px 5px 10px 0px black;
+  }
+  .chat-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    background-image: linear-gradient(100deg,#090662,#47bbff );
+    color: var(--light-color);
+    font-size: 1rem;
+  }
+  .chatbox__heading--header {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .chat-header .logo {
+    height: 50px;
+    width: 60px;
+    margin-right: 10px;
+  }
+  .chat-header img {
+    height: 100%;
+    width: 100%;
+    
+  }
+  .chat-header .title {
+    padding-left: 15px;
+  }
+  .chatbox__image--header {
+    margin-right: 10px;
+}
+
+.chatbox__heading--header {
+    font-size: 1.5rem;
+    color: white;
+    
+}
+
+.chatbox__description--header {
+    font-size: .8rem;
+    color: white;
+}
+  .chat {
+      padding-top:10px;
+      height: 450px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow-y: auto;
+      scroll-behavior: auto;
+  } 
+  
+  ::-webkit-input-placeholder { 
+      color: .711 
+  }
+   
+  input { 
+      border: 2px solid blue; 
+      padding: 15px; 
+      border-radius: 18px;
+      width:100%;
+  }
+  
+  .messages {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	height: 90%;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+  
+  #bot {
+    padding: 8px;
+      margin: 10px;
+      background: #3766ff;
+  color: var(--light-color);
+  align-self: flex-start;
+  border-radius: 10px 10px 3px 10px;
+  }
+  
+  #user {
+    padding: 8px;
+  background: #c5defb;
+  margin: 10px;
+  width: max-content;
+  border-radius: 10px 3px 10px 10px;
+      margin-left: auto;
+      
+  }
+  .bot {
+      font-family: Consolas, 'Courier New', Menlo, source-code-pro, Monaco,  
+      monospace;
+  }
+  .response {
+	display: flex;
+	align-items: center;
+}
+
